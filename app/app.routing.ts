@@ -1,3 +1,4 @@
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CharactersComponent } from './characters.component';
@@ -15,6 +16,10 @@ export const routes: Routes = [
   { path: '**', pathMatch: 'full', component: PageNotFoundComponent}
 ];
 
-export const routing = RouterModule.forRoot(routes);
+@NgModule({
+  imports: [RouterModule.forRoot(routes)],
+  exports: [RouterModule]
+})
+export class AppRoutingModule { }
 
 export const routedComponents = [DashboardComponent, CharactersComponent, PageNotFoundComponent];
