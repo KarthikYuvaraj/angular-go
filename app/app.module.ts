@@ -4,8 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule, XHRBackend } from '@angular/http';
 
 import { AppComponent }   from './app.component';
-// import './shared/rxjs-extensions';
-import { AppRoutingModule, routedComponents } from './app.routing';
+import { AppRoutingModule, routedComponents } from './app-routing.module';
 import { CharacterService } from './character.service'
 
 @NgModule({
