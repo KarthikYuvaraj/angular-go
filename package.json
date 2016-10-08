@@ -6,11 +6,11 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
-    "start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "gulp copy-jit && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "typings": "typings",
     "aot": "ngc -p tsconfig-aot.json",
     "rollup": "rollup -c rollup-config.js",
-    "aot-run": "npm run aot && npm run rollup && gulp copy-aot && npm run lite"
+    "start-aot": "npm run aot && npm run rollup && gulp copy-aot && npm run lite"
   },
   "dependencies": {
     "@angular/common": "~2.0.2",
