@@ -5,6 +5,8 @@
 aot/*
 dist/*
 
+yarn.lock
+
 # dependencies
 /node_modules
 /bower_components
@@ -19,7 +21,6 @@ dist/*
 /libpeerconnection.log
 npm-debug.log
 testem.log
-/typings
 
 # e2e
 /e2e/*.js
@@ -44,7 +45,6 @@ api/**/*.js
 #node_modules
 #jspm_packages
 #bower_components
-#typings
 #
 ##tests
 #!**/*.e2e.js
