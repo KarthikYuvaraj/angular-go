@@ -40,5 +40,3 @@ Notes:
 - Use your favorite server in place of `http-server`
 - This could be scripted, obviously
 - `lite-server` does not launch gzipped files by default.
-
-
