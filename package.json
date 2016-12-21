@@ -4,6 +4,7 @@
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+    "lint": "tslint ./src/app/**/*.ts -t verbose",
     "lite": "lite-server",
     "start": "gulp copy-jit && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "aot": "ngc -p tsconfig-aot.json",
