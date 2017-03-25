@@ -4,8 +4,8 @@ Super simple Angular app with 1 module and 2 routes
 
 ## Get the Code
 ```
-git clone https://github.com/johnpapa/angular2-go.git a2-go
-cd a2-go
+git clone https://github.com/johnpapa/angular-go.git a-go
+cd a-go
 npm i
 ```
 
