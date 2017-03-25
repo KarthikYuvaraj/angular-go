@@ -6,8 +6,8 @@ import { Character, CharacterService } from './character.service';
 @Component({
   moduleId: module.id,
   selector: 'my-characters',
-  templateUrl: 'characters.component.html',
-  styleUrls: ['characters.component.css']
+  templateUrl: './characters.component.html',
+  styleUrls: ['./characters.component.css']
 })
 export class CharactersComponent implements OnInit {
   characters: Character[];
